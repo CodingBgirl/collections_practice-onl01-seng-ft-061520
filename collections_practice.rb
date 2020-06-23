@@ -4,6 +4,6 @@ def sort_array_asc(arrays)
 end
 
 #this puts it in backwards number order
-def sort_array_desc
-  
+def sort_array_desc(arrays)
+  arrays.sort {}
 end

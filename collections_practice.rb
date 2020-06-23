@@ -9,3 +9,8 @@ def sort_array_desc(arrays)
   arrays.sort! { |number, num| num <=> number}
   return arrays
 end
+
+#sort array by number of characters in string or word
+def sort_array_char_count(arrays)
+  
+end

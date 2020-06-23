@@ -5,5 +5,5 @@ end
 
 #this puts it in backwards number order
 def sort_array_desc(arrays)
-  arrays.sort {|num| x > y}
+  arrays.sort {|num| x <=> y}
 end

@@ -1,4 +1,4 @@
-#this puts this in number order 
+#this puts this in number order
 def sort_array_asc(arrays)
   arrays.sort
 end

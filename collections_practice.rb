@@ -6,5 +6,5 @@ end
 #this puts it in backwards number order
 def sort_array_desc(arrays)
   arrays.sort! { |num| num <=> num}
-  puts arrays.to_s
+  return arrays.to_s
 end

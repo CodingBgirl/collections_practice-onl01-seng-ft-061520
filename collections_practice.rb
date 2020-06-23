@@ -19,6 +19,6 @@ end
 
 #swap the 2nd and 3rd element
 def swap_elements(names)
-  names.sort_by { |number| number[1] << number[2] }
+  names.sort_by { |number| number[1]}
   return names
 end

@@ -12,5 +12,5 @@ end
 
 #sort array by number of characters in string or word
 def sort_array_char_count(arrays)
-  
+  array.sort!
 end

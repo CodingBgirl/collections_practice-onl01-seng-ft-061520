@@ -18,7 +18,7 @@ def sort_array_char_count(arrays)
 end
 
 #swap the 2nd and 3rd element
-def swap_elements(arrays)
-  arrays.sort_by { |number| number[2] << number[1] }
-  return arrays
+def swap_elements(names)
+  names.sort_by { |number| number[1] << number[2] }
+  return names
 end

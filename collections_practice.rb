@@ -16,3 +16,8 @@ def sort_array_char_count(arrays)
   arrays.sort! { |left,right|left.length <=> right.length }
   return arrays
 end
+
+#swap the 2nd and 3rd element
+def swap_elements(arrays)
+  
+end

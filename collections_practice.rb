@@ -12,6 +12,6 @@ end
 
 #sort array by number of characters in string or word
 def sort_array_char_count(arrays)
-  arrays.sort! { |left,right|right.length <=> left.length }
+  arrays.sort! { |left,right|left.length <=> right.length }
   return arrays
 end

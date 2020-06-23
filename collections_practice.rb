@@ -19,5 +19,6 @@ end
 
 #swap the 2nd and 3rd element
 def swap_elements(arrays)
-  
+  arrays.sort { |number| }
+  return arrays
 end

@@ -43,5 +43,5 @@ def sum_array(numbers)
 end
 
 def add_s(body)
-  body.collect{|arr| arr==array[1] ? arr:arr <<"s"
+  body.collect{|arr| arr==array[1] ? arr:arr <<"s"}
 end

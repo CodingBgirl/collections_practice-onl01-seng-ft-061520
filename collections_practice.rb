@@ -29,3 +29,7 @@ end
 def reverse_array(numbers)
   numbers.reverse
 end
+
+def kesha_maker(array_names)
+  array_names.each { |person| person.split(" ") }
+end

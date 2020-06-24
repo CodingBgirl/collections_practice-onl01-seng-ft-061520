@@ -34,9 +34,9 @@ def kesha_maker(array_names)
   array_names.each { |person| person[2] = "$"}
 end
 
-def method_name
-
+def find_a(fruit)
+  fruit.find_all { |a_fruit| string.start_with?("a")}
 end
 
 
-string.start_with?("a")
+

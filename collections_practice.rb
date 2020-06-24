@@ -33,3 +33,10 @@ end
 def kesha_maker(array_names)
   array_names.each { |person| person[2] = "$"}
 end
+
+def method_name
+  
+end
+
+
+string.start_with?("a")

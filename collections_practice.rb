@@ -37,3 +37,7 @@ end
 def find_a(fruit)
   fruit.find_all { |a_fruit| a_fruit.start_with?("a")}
 end
+
+def sum_array(numbers)
+  
+end

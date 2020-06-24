@@ -37,6 +37,3 @@ end
 def find_a(fruit)
   fruit.find_all { |a_fruit| string.start_with?("a")}
 end
-
-
-

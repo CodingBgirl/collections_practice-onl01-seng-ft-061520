@@ -24,3 +24,8 @@ def swap_elements(names)
   names[2] = temp
   return names
 end
+
+#reverse the order of array
+def reverse_array(numbers)
+  numbers.reverse
+end

@@ -20,7 +20,7 @@ end
 #swap the 2nd and 3rd element
 def swap_elements(names)
   temp = names[1]
-  names[1] = names[2]
+  names[1] = names[]
   names[2] = names[1]
   return names
 end

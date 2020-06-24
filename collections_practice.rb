@@ -31,5 +31,5 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(array_names)
-  array_names.each { |person| person.split(" ") }
+  array_names.each { |person| person[2] = "$"}
 end

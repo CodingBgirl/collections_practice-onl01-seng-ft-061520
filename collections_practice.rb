@@ -41,3 +41,7 @@ end
 def sum_array(numbers)
   numbers.inject{ |added, numbers| added + numbers }
 end
+
+def add_s(body)
+  body.each_with_index.collect{|element, index| element << "2"}
+end
